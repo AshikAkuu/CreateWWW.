@@ -138,8 +138,8 @@ footer div{
 }
 a{
     cursor: pointer;
-    margin-top: 5%;
-    padding: 1%;
+    margin-top: 10px;
+    padding: 5px;
 }
 a > p{
     color: white;
@@ -147,4 +147,40 @@ a > p{
     font-size:20px;
 
 }
-
+@media (max-width: 500px){
+    .logo-container > h1{
+        color: #58FC03;
+        font-family: sans-serif;
+        font-size: 29px;
+        position: relative;
+        margin-bottom: 0%;
+        letter-spacing: 5px;   
+    }
+    .hero-container{
+        height: 100vh;
+        width: 90vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .heroimgdiv{
+        display: flex;
+        width: 45vh;
+        justify-content: center; 
+        margin: 0%;   
+    }
+    .hero-img{
+        border: 10px solid #D5FC03;
+        height: 45vh;
+        width: 45vh;
+        margin: 0%;
+    }
+    .logo-container > p{
+        color: #FCA703;
+        font-family: sans-serif;
+        font-size: 32px;
+        text-align: center;
+        margin-top: 10px;
+        display: flex;
+        align-self: center;
+    }
+}
